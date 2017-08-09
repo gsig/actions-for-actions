@@ -10,7 +10,7 @@ Will be updated closer to ICCV 2017
 To develop better algorithms for understanding activities, it will help to understand how and why they work. Looking solely at a single performance number obscures away from various details about the algorithms. To facilitate this process we are releasing a set of open-source Python scripts to generate detailed visualizations of one or more algorithms. The tool operates on the same file format required for the official Charades evaluation scripts, and therefore only needs a single submission file from each algorithm for analysis and comparison.
 The tool contains annotations for many attributes, and any subset of those can be selected for visualization. This allows to quickly generate diagnostic plots of one or more algorithms that fit into $1/4$ of a page. These plots follow the same structure as the experiments section of the paper. A list of attributes and abbreviations is presented at the end of this section.
 We note that this analysis could be extended to any dataset, by following our methodology outlined in the paper to compute and collect the same attributes.
-To highlight the usefulness of the tool we consider three use cases below.
+To highlight the usefulness of the tool we consider use cases below.
 
 # Single Algorithm Diagnostics for Classification and Localization
 

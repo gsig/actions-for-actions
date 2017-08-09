@@ -18,7 +18,7 @@ First we visualize how individual baselines would look under the diagnostic. Out
 
 Diagnostic Output on Charades includes classification and localization. *0,1,2,3\}* denotes the degree of each continuous attribute and *N*,*Y* denotes if a binary attributes is present (Yes) or absent (No). Dashed lines indicate the overall performance of each algorithm. Blue line is classification and Brown line is localization performance.
 
-* If you want your algorith to appear here, you are welcome to send me an email with links to your classification and/or localization submission files on the Charades test set! *
+*If you want your algorith to appear here, you are welcome to send me an email with links to your classification and/or localization submission files on the Charades test set!*
 
 ## Two-Stream
 ![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_twostream.png.jpg)

@@ -39,7 +39,7 @@ Diagnostic Output on Charades includes classification and localization. *0,1,2,3
 
 To understand the difference between multiple algorithms, or different versions of the same algorithm, the tool can also be used to visualize many different algorithms. A condensed summary of the plots in the paper are presented in below for classification on Charades.
 
-![Algorithm comparison](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_all.png.jpg)
+![Algorithm comparison](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplotall.png.jpg)
 
 
 # List of Attributes and Their Abbreviations

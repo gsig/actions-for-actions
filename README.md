@@ -16,7 +16,7 @@ To highlight the usefulness of the tool we consider use cases below.
 
 First we visualize how individual baselines would look under the diagnostic. Output from the diagnostics tool is presented for multiple baselines on Charades. The same can be done for any algorithm that can do both classification and localization.
 
-Diagnostic Output on Charades includes classification and localization. *0,1,2,3\}* denotes the degree of each continuous attribute and *N*,*Y* denotes if a binary attributes is present (Yes) or absent (No). Dashed lines indicate the overall performance of each algorithm. Blue line is classification and Brown line is localization performance.
+Diagnostic Output on Charades includes classification and localization. *0,1,2,3* denotes the degree of each continuous attribute and *N*,*Y* denotes if a binary attributes is present (Yes) or absent (No). Dashed lines indicate the overall performance of each algorithm. Blue line is classification and Brown line is localization performance.
 
 *If you want your algorith to appear here, you are welcome to send me an email with links to your classification and/or localization submission files on the Charades test set!*
 
@@ -32,7 +32,7 @@ Diagnostic Output on Charades includes classification and localization. *0,1,2,3
 ## ActionVLAD (Girdhar et al. 2017)
 ![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_actionvlad.png.jpg)
 
-## Asynchromous Temporal Fields (Sigurdsson. 2017) [Code](https://github.com/gsig/temporal-fields/)
+## Asynchromous Temporal Fields (Sigurdsson. 2017) [(Link)](https://github.com/gsig/temporal-fields/)
 ![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_tfields.png.jpg)
 
 # Multiple Algorithm Comparison

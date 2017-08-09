@@ -20,19 +20,19 @@ Diagnostic Output on Charades includes classification and localization. *0,1,2,3
 
 *If you want your algorith to appear here, you are welcome to send me an email with links to your classification and/or localization submission files on the Charades test set!*
 
-## Two-Stream
+## Two-Stream (Simonyan & Zisserman 2014)
 ![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_twostream.png.jpg)
 
-## IDT
+## IDT (Wang & Schmid 2013)
 ![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_idt.png.jpg)
 
-## LSTM
+## CNN+LSTM (Ng et al. 2015)
 ![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_lstm.png.jpg)
 
-## ActionVLAD
+## ActionVLAD (Girdhar et al. 2017)
 ![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_actionvlad.png.jpg)
 
-## Asynchromous Temporal Fields
+## Asynchromous Temporal Fields (Sigurdsson. 2017) [Code](https://github.com/gsig/temporal-fields/)
 ![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_tfields.png.jpg)
 
 # Multiple Algorithm Comparison

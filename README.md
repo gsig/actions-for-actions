@@ -8,7 +8,7 @@ Will be updated closer to ICCV 2017
 # Diagnostic Tool for Charades
 
 To develop better algorithms for understanding activities, it will help to understand how and why they work. Looking solely at a single performance number obscures away from various details about the algorithms. To facilitate this process we are releasing a set of open-source Python scripts to generate detailed visualizations of one or more algorithms. The tool operates on the same file format required for the official Charades evaluation scripts, and therefore only needs a single submission file from each algorithm for analysis and comparison.
-The tool contains annotations for many attributes, and any subset of those can be selected for visualization. This allows to quickly generate diagnostic plots of one or more algorithms that fit into $1/4$ of a page. These plots follow the same structure as the experiments section of the paper. A list of attributes and abbreviations is presented at the end of this section.
+The tool contains annotations for many attributes, and any subset of those can be selected for visualization. This allows to quickly generate diagnostic plots of one or more algorithms that fit into 1/4 of a page. These plots follow the same structure as the experiments section of the paper. A list of attributes and abbreviations is presented at the end of this section.
 We note that this analysis could be extended to any dataset, by following our methodology outlined in the paper to compute and collect the same attributes.
 To highlight the usefulness of the tool we consider use cases below.
 
@@ -21,25 +21,25 @@ Diagnostic Output on Charades includes classification and localization. *0,1,2,3
 *If you want your algorith to appear here, you are welcome to send me an email with links to your classification and/or localization submission files on the Charades test set!*
 
 ## Two-Stream (Simonyan & Zisserman 2014)
-![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_twostream.png.jpg)
+![Two-Stream](./img/output_megaplot_twostream.png.jpg)
 
 ## IDT (Wang & Schmid 2013)
-![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_idt.png.jpg)
+![Two-Stream](./img/output_megaplot_idt.png.jpg)
 
 ## CNN+LSTM (Ng et al. 2015)
-![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_lstm.png.jpg)
+![Two-Stream](./img/output_megaplot_lstm.png.jpg)
 
 ## ActionVLAD (Girdhar et al. 2017)
-![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_actionvlad.png.jpg)
+![Two-Stream](./img/output_megaplot_actionvlad.png.jpg)
 
 ## Asynchromous Temporal Fields (Sigurdsson. 2017) [(Link)](https://github.com/gsig/temporal-fields/)
-![Two-Stream](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplot_tfields.png.jpg)
+![Two-Stream](./img/output_megaplot_tfields.png.jpg)
 
 # Multiple Algorithm Comparison
 
 To understand the difference between multiple algorithms, or different versions of the same algorithm, the tool can also be used to visualize many different algorithms. A condensed summary of the plots in the paper are presented in below for classification on Charades.
 
-![Algorithm comparison](https://dl.dropboxusercontent.com/u/10728218/web/output_megaplotall.png.jpg)
+![Algorithm comparison](./img/output_megaplotall.png.jpg)
 
 
 # List of Attributes and Their Abbreviations

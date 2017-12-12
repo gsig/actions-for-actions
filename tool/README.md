@@ -21,14 +21,20 @@ Additional Charades submission files are available for multiple baselines at htt
 
 ## Example 1:
 Original settings. Analysis plot for a single algorithm with error bars. See example1.pdf.
+```
 python charadesplot.py Two-Stream.txt
+```
 
 ## Example 2:
 Original settings except:
+```
 YLIM = [0.05,0.40]
 ERRORBARS = ...[0]
+```
 Comparison plot for multiple algorithms without error bars. See example2.pdf.
+```
 python charadesplot.py Two-Stream.txt TFields.txt
+```
 
 # BibTex
 If this tool helps your research:

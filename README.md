@@ -3,7 +3,7 @@ Diagnostic tools and additional visualizations from "What Actions are Needed for
 
 Contributor: Gunnar A. Sigurdsson
 
-Will be updated closer to ICCV 2017
+** Please see the [Tools/](tools/) subdirectory for the visualization tool and attributes for Charades! Let me know if you run into any problems. **
 
 # Diagnostic Tool for Charades
 

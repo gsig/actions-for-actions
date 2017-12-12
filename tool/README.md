@@ -9,25 +9,25 @@ The tool contains annotations for many attributes, and any subset of those can b
 Requirements: python 2.7, numpy, pandas
 (sudo) pip install numpy pandas
 
-#Usage:
+# Usage:
 python charadesplot.py submission_file1.txt submission_file2.txt etc..
 
 The script is meant to be edited and experimented with. There are constants at the top of the script that can be edited to create different figures, and it should be easy to add more attributes as needed.
 
 Additional Charades submission files are available for multiple baselines at https://github.com/gsig/temporal-fields
 
-##Example 1:
+## Example 1:
 Original settings. Analysis plot for a single algorithm with error bars. See example1.pdf.
 python charadesplot.py Two-Stream.txt
 
-##Example 2:
+## Example 2:
 Original settings except:
 YLIM = [0.05,0.40]
 ERRORBARS = ...[0]
 Comparison plot for multiple algorithms without error bars. See example2.pdf.
 python charadesplot.py Two-Stream.txt TFields.txt
 
-#BibTex
+# BibTex
 If this tool helps your research:
 ```
 @inproceedings{sigurdsson2017actions,

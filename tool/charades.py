@@ -42,7 +42,7 @@ class CharadesEvaluator(BaseEvaluator):
         assert len(build_proc_sub[0]) == self.n_classes + len(self.submission_columns)
         proc_sub = pd.DataFrame.from_records(build_proc_sub, columns=[self.submission_columns + list(range(self.n_classes))])
         if self.subset is not None:
-            mask = [True if x[0] in self.subset else False for x in proc_sub['frame_id'].values]
+            mask = [True if x in self.subset else False for x in proc_sub['frame_id'].values]
             proc_sub = proc_sub[mask]
             assert np.any(np.array(mask))
         num_proc_sub = proc_sub.apply(pd.to_numeric, errors='ignore')
@@ -56,7 +56,7 @@ class CharadesEvaluator(BaseEvaluator):
         #self.check_frame_count()
         gt_vids = set(self.vid_ids)
         #submitted_vids = set(submission['frame_id'].tolist())
-        submitted_vids = set(x[0] for x in submission['frame_id'].values.tolist())
+        submitted_vids = set(submission['frame_id'].values)
         vids_missing = gt_vids.difference(submitted_vids)
         vids_extra = submitted_vids.difference(gt_vids)
         #assert not vids_missing and not vids_extra

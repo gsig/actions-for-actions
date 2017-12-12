@@ -6,8 +6,11 @@ Contributor: Gunnar A. Sigurdsson
 To develop better algorithms for understanding activities, it will help to understand how and why they work. Looking solely at a single performance number obscures away from various details about the algorithms. To facilitate this process we are releasing a set of open-source Python scripts to generate detailed visualizations of one or more algorithms. The tool operates on the same file format required for the official Charades evaluation scripts, and therefore only needs a single submission file from each algorithm for analysis and comparison.
 The tool contains annotations for many attributes, and any subset of those can be selected for visualization. This allows to quickly generate diagnostic plots of one or more algorithms that fit into 1/4 of a page. These plots follow the same structure as the experiments section of the paper. 
 
-Requirements: python 2.7, numpy, pandas
+# Requirements: 
+python 2.7, numpy, pandas
+```
 (sudo) pip install numpy pandas
+```
 
 # Usage:
 python charadesplot.py submission_file1.txt submission_file2.txt etc..

@@ -3,7 +3,7 @@ Diagnostic tools and additional visualizations from "What Actions are Needed for
 
 Contributor: Gunnar A. Sigurdsson
 
-**Please see the [tool/](tool/) and [oracles/](oracles/) subdirectories for the visualization tools and attributes for Charades! Let me know if you run into any problems.**
+**Please see the [tool/](tool/), [oracles/](oracles/), and [error_analysis/](error_analysis/) subdirectories for the visualization tools and attributes for Charades! Let me know if you run into any problems.**
 
 # Diagnostic Tool for Charades
 

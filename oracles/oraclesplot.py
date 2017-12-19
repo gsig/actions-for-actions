@@ -4,6 +4,8 @@ import csv
 import sys
 import math
 import combine_submissions
+import os
+import os.path
 sys.path.insert(0, '../tool/') # for charades evaluator
 from charades import LocalizationEvaluator
 from charades import ClassificationEvaluator
@@ -89,7 +91,10 @@ def make_data():
             newdata[i].append(score)
         else:
             for sub in submission_files:
-                out = 'combinations/{}_{}.txt'.format(name(oracle['file']),name(sub))
+                output_dir = 'combinations'
+                if not os.path.isdir(output_dir):
+                    os.mkdir(output_dir)
+                out = '{}/{}_{}.txt'.format(output_dir, name(oracle['file']),name(sub))
                 combine_submissions.main(oracle['file'],sub,out)
                 print('Combination of {} and {} written to {}'.format(oracle['file'],sub,out))
                 score = mAP(out)
